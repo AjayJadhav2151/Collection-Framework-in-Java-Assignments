@@ -1,5 +1,6 @@
+import java.io.Serializable;
 
-public class Customer3 {
+public class Customer3 implements Serializable{
 
 	private String name;
 	private String emailid;

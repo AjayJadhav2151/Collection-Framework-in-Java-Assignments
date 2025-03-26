@@ -1,6 +1,6 @@
 
 
-public class Employee6 implements Comparable<Employee6>{
+public class Employee6 implements Comparable<Employee6> {
 	
 	private int empid;
 	private String name;
@@ -10,7 +10,6 @@ public class Employee6 implements Comparable<Employee6>{
 		super();
 	}
 
-	@Override
 	public int compareTo(Employee6 e) {
 	
 		int diff = 0;
@@ -37,8 +36,6 @@ public class Employee6 implements Comparable<Employee6>{
 		this.salary = salary;
 	}
 
-	
-	
 	@Override
 	public String toString() {
 		return "\nEmployee id is: "+empid+"Employee name is: "+name+"Employee Salary is :"+salary;

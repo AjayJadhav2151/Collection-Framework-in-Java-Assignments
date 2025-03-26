@@ -1,6 +1,7 @@
 //6 Create a tree set for Emp objects where Emp objects should be arranged on the basis of
 //increasing salary.
 import java.io.IOException;
+import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 

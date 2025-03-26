@@ -1,5 +1,6 @@
+import java.io.Serializable;
 
-public class RegisteredCustomer3 extends Customer3 {
+public class RegisteredCustomer3 extends Customer3{
 
 	private int regno;
 
@@ -14,7 +15,7 @@ public class RegisteredCustomer3 extends Customer3 {
 
 	@Override
 	public String toString() {
-		return "RegisteredCustomer regno=" + regno;
+		return super.toString()+"  RegisteredCustomer regno=" + regno;
 	}
 
 	

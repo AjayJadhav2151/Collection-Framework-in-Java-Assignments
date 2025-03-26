@@ -46,6 +46,12 @@ public class Assignment3 {
 				    cust[i]=new Customer3(name,email,phno);
 				}
 			}
+			for(int i=0;i<cust.length;i++) {
+				System.out.println("written");
+				oos.writeObject(cust[i]);
+			}
+			System.out.println("Customer saved in file...");
+			oos.close();
 			
 	}
 
